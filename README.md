@@ -6,7 +6,7 @@ An end-to-end data analytics project demonstrating data processing, verification
 The goal of this project is to analyze a customer complaints dataset to track business performance, operational efficiency, and regional complaint distributions. This pipeline helps businesses identify bottleneck regions and understand customer satisfaction levels.
 
 ## 🛠️ Tech Stack Used
-* **Excel:** Interactive Dashboards, Pivot Tables, Slicers, Conditional Formatting.
+* **Excel:** Interactive Dashboards, Pivot Tables, Slicers, Conditional Formatting. 
 * **SQL:** Data aggregation, structural queries (`GROUP BY`, `COUNT`, `AVG`).
 * **Python:** Data manipulation (**Pandas**) and Data Visualization (**Matplotlib**).
 
@@ -23,6 +23,7 @@ The following core metrics were extracted and validated across all three platfor
 ## 🚀 Implementation Steps
 
 ### 1. Excel Dashboard
+![Dashboard](dashboard.PNG)
 * Imported the raw dataset and cleaned missing values.
 * Created dynamic **Pivot Tables** to summarize complaints by state and resolution status.
 * Embedded **KPI Cards** and interactive **Slicers** to allow stakeholders to filter data dynamically.
